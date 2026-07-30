@@ -1,0 +1,47 @@
+generated: '2026-07-19'
+method: searched
+source: live HTTP probes of the lattice-engines.com hosts
+note: >-
+  No /.well-known/ discovery surface is served. The Lattice Engines brand was
+  acquired by Dun & Bradstreet in 2019 and the domain no longer hosts an
+  application: www hosts redirect (301) to dnb.com and the apex host is fronted
+  by Cloudflare returning 403. No document returned 200, so no raw files were
+  saved. An empty well-known surface is a valid, recorded result.
+hosts:
+- host: https://www.lattice-engines.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 301
+  - path: /.well-known/openid-configuration
+    status: 301
+  - path: /.well-known/oauth-authorization-server
+    status: 301
+  - path: /.well-known/api-catalog
+    status: 301
+  - path: /.well-known/ai-plugin.json
+    status: 301
+  - path: /llms.txt
+    status: 301
+- host: https://lattice-engines.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 403
+  - path: /.well-known/openid-configuration
+    status: 403
+  - path: /.well-known/oauth-authorization-server
+    status: 403
+  - path: /.well-known/api-catalog
+    status: 403
+  - path: /.well-known/ai-plugin.json
+    status: 403
+  - path: /llms.txt
+    status: 403
+related_hosts_probed:
+- host: https://api.lattice-engines.com
+  status: 404
+- host: https://developer.lattice-engines.com
+  status: 0
+  note: DNS does not resolve
+- host: https://docs.lattice-engines.com
+  status: 0
+  note: DNS does not resolve
