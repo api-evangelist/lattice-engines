@@ -1,23 +1,74 @@
 aid: lattice-engines
 name: Lattice Engines
-description: Lattice Engines is a company surfaced as a portfolio company of battery-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Lattice Engines was a predictive marketing and AI-driven B2B customer data
+  platform that applied machine learning to first-party CRM and marketing
+  automation data combined with external firmographic, technographic, and intent
+  signals in order to score accounts and leads, prioritize sales outreach, and
+  power account-based marketing programs. The company was acquired by Dun &
+  Bradstreet in 2019 and the product was rebranded D&B Lattice before being
+  folded into the Dun & Bradstreet Rev.Up ABX go-to-market platform. Lattice
+  Engines no longer operates as an independent brand and publishes no developer
+  surface of its own: as of the 2026-07-19 enrichment probe, www.lattice-engines.com
+  returns HTTP 301 to dnb.com, the apex domain returns HTTP 403, api.lattice-engines.com
+  returns HTTP 404, and developer./docs. subdomains do not resolve. This profile is
+  retained as a historical record; the live successor surface is documented in the
+  api-evangelist dun-and-bradstreet repository.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lattice-engines.png
 url: https://raw.githubusercontent.com/api-evangelist/lattice-engines/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - battery-ventures
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: acquired-no-public-api
+x-status: acquired
+x-acquired-by: Dun & Bradstreet
+x-acquired-year: 2019
+x-successor-slug: dun-and-bradstreet
+x-successor-url: https://www.dnb.com/en-us/products/dnb-rev-up-abx.html
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Acquired
+- Predictive Marketing
+- Account Based Marketing
+- Sales Intelligence
+- Customer Data Platform
+- Lead Scoring
+- Machine Learning
+- B2B Marketing
+- Historical
 apis: []
+common:
+- type: Website
+  url: https://www.lattice-engines.com/
+- type: DomainSecurity
+  url: security/lattice-engines-domain-security.yml
+- type: WellKnown
+  url: well-known/lattice-engines-well-known.yml
+- type: LLMsTxt
+  url: llms/lattice-engines-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
