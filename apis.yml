@@ -14,6 +14,17 @@ description: >-
   returns HTTP 404, and developer./docs. subdomains do not resolve. This profile is
   retained as a historical record; the live successor surface is documented in the
   api-evangelist dun-and-bradstreet repository.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
