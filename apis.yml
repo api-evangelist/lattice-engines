@@ -76,6 +76,11 @@ tags_raw:
 - Historical
 apis: []
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/dun-and-bradstreet/
+  name: Dun & Bradstreet
+  x-relationship: acquired
+  x-evidence: "The company was acquired by Dun & Bradstreet in 2019 and the product was rebranded D&B Lattice before being folded into the Dun & Bradstreet Rev."
 - type: Website
   url: https://www.lattice-engines.com/
 - type: DomainSecurity
