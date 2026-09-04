@@ -36,6 +36,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://www.lattice-engines.com/', status: 301, note: 'declared website redirects to https://www.dnb.com/en-us/products/dnb-rev-up-abx.html — a different registrable domain (lattice-engines.com -> dnb.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lattice-engines.png
 url: https://raw.githubusercontent.com/api-evangelist/lattice-engines/refs/heads/main/apis.yml
 x-type: company
