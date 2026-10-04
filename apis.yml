@@ -62,7 +62,7 @@ tags:
 - Sales Intelligence
 - Customer Data Platform
 - Lead Scoring
-- Machine-Learning
+- Machine Learning
 - B2B Marketing
 - Historical
 tags_raw:
@@ -76,6 +76,7 @@ tags_raw:
 - Machine Learning
 - B2B Marketing
 - Historical
+- Machine-Learning
 apis: []
 common:
 - type: ParentCompany
