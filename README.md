@@ -64,33 +64,44 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Lattice Engines was a predictive marketing and AI-driven B2B customer data platform that
-scored accounts and leads from CRM, marketing automation, firmographic, technographic, and
-intent data to prioritize sales outreach and power account-based marketing.
+> **Acquired or rebranded.** This company was acquired, merged or renamed. Its API, if it still exists, is offered under another name. This profile is kept as a historical record and is not maintained or rated.
 
-**Status: acquired.** Dun & Bradstreet acquired Lattice Engines in 2019. The product was
-rebranded D&B Lattice and later folded into the Dun & Bradstreet Rev.Up ABX platform.
+Lattice Engines was a predictive marketing and AI-driven B2B customer data platform that applied machine learning to first-party CRM and marketing automation data combined with external firmographic, technographic, and intent signals in order to score accounts and leads, prioritize sales outreach, and power account-based marketing programs. The company was acquired by Dun & Bradstreet in 2019 and the product was rebranded D&B Lattice before being folded into the Dun & Bradstreet Rev.Up ABX go-to-market platform. Lattice Engines no longer operates as an independent brand and publishes no developer surface of its own: as of the 2026-07-19 enrichment probe, www.lattice-engines.com returns HTTP 301 to dnb.com, the apex domain returns HTTP 403, api.lattice-engines.com returns HTTP 404, and developer./docs. subdomains do not resolve. This profile is retained as a historical record; the live successor surface is documented in the api-evangelist dun-and-bradstreet repository.
 
-- Successor product: https://www.dnb.com/en-us/products/dnb-rev-up-abx.html
-- Successor profile: https://github.com/api-evangelist/dun-and-bradstreet
+**Areas:** Company · Acquired · Predictive Marketing · Account Based Marketing · Sales Intelligence · Customer Data Platform · Lead Scoring · Machine Learning · B2B Marketing · Historical
 
-## Developer surface
+## Lattice Engines on APIs.io (historical record)
 
-None. Enrichment probes on 2026-07-19 found no public API, documentation, or discovery
-surface under this brand:
+Everything profiled for Lattice Engines is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lattice-engines/](https://apis.io/providers/lattice-engines/)** — or go straight to one of the APIs or properties below.
 
-| Host | Result |
-|---|---|
-| `www.lattice-engines.com` | 301 → dnb.com |
-| `lattice-engines.com` | 403 |
-| `api.lattice-engines.com` | 404 |
-| `developer.lattice-engines.com` | DNS does not resolve |
-| `docs.lattice-engines.com` | DNS does not resolve |
+### Published properties
 
-## Artifacts
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- `security/lattice-engines-domain-security.yml` — probed TLS/DNS posture
-- `well-known/lattice-engines-well-known.yml` — probed `/.well-known/` surface (empty)
-- `llms/lattice-engines-llms.txt` — generated agent-facing summary
+#### Security (1)
 
-Backed by: battery-ventures
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Lattice Engines Domain Security](https://apis.io/security/lattice-engines/lattice-engines-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.lattice-engines.com/)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as acquired or rebranded, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Lattice Engines: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lattice-engines/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
